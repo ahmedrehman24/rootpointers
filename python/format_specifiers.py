@@ -1,4 +1,4 @@
-price = 49.5678
+value = 1234.56789
 
-print(f"Price: ${price:.2f}")
-print(f"Binary: {10:b}")
+print(f"{value:,.2f}")
+print(f"{value:^20}")

@@ -1,7 +1,6 @@
-my_list = [1, 2, 3]
-my_set = {1, 2, 3}
-my_tuple = (1, 2, 3)
+numbers = [1, 2, 2, 3, 4]
+unique_numbers = set(numbers)
 
-print(my_list)
-print(my_set)
-print(my_tuple)
+print("List:", numbers)
+print("Set:", unique_numbers)
+print("Tuple:", tuple(numbers))

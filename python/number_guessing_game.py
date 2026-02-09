@@ -1,9 +1,13 @@
 import random
 
-number = random.randint(1, 10)
-guess = int(input("Guess the number: "))
+number = random.randint(1, 100)
 
-if guess == number:
-    print("Correct!")
-else:
-    print("Wrong! It was", number)
+while True:
+    guess = int(input("Guess (1-100): "))
+    if guess == number:
+        print("Correct!")
+        break
+    elif guess < number:
+        print("Too low")
+    else:
+        print("Too high")

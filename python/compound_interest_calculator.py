@@ -1,6 +1,6 @@
-principal = 1000
-rate = 0.05
-years = 3
+p = float(input("Principal: "))
+r = float(input("Rate (%): ")) / 100
+t = int(input("Years: "))
 
-amount = principal * (1 + rate) ** years
-print(f"Total: {amount}")
+amount = p * (1 + r) ** t
+print(f"Final Amount: {amount:.2f}")

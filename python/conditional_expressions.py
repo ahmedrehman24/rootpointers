@@ -1,3 +1,2 @@
-age = 20
-status = "Adult" if age >= 18 else "Minor"
-print(status)
+number = int(input("Enter a number: "))
+print("Even" if number % 2 == 0 else "Odd")

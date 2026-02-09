@@ -1,5 +1,11 @@
-adjective = input("Enter an adjective: ")
-noun = input("Enter a noun: ")
-verb = input("Enter a verb: ")
+adjective = input("Adjective: ")
+animal = input("Animal: ")
+place = input("Place: ")
 
-print(f"Today I saw a {adjective} {noun} that loves to {verb}.")
+story = f"""
+Today I saw a {adjective} {animal}
+running wildly through {place}.
+It was the strangest thing ever!
+"""
+
+print(story)

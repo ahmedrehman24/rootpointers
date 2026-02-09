@@ -1,4 +1,6 @@
-def greet(name):
-    print(f"Hello {name}")
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
 
-greet("Alice")
+print(factorial(5))

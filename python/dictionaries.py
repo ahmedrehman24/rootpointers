@@ -1,6 +1,4 @@
-student = {
-    "name": "John",
-    "age": 20
-}
+student = {"name": "Alice", "age": 22}
 
-print(student["name"])
+for key, value in student.items():
+    print(f"{key}: {value}")

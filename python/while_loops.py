@@ -1,5 +1,6 @@
-count = 1
+password = ""
 
-while count <= 5:
-    print(count)
-    count += 1
+while password != "python123":
+    password = input("Enter password: ")
+
+print("Access granted")

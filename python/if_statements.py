@@ -1,6 +1,10 @@
-age = int(input("Enter your age: "))
+grade = int(input("Enter your grade: "))
 
-if age >= 18:
-    print("You are an adult.")
+if grade >= 90:
+    print("A")
+elif grade >= 80:
+    print("B")
+elif grade >= 70:
+    print("C")
 else:
-    print("You are a minor.")
+    print("Fail")

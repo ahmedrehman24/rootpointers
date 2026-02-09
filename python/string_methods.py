@@ -1,5 +1,5 @@
-text = "python programming"
+text = input("Enter text: ")
 
-print(text.upper())
-print(text.capitalize())
-print(text.replace("python", "java"))
+print("Upper:", text.upper())
+print("Lower:", text.lower())
+print("Count of 'a':", text.count("a"))

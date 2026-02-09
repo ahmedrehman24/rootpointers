@@ -1,7 +1,12 @@
-temp = float(input("Enter temperature: "))
-unit = input("Celsius or Fahrenheit (c/f): ")
+temp = float(input("Temperature: "))
+unit = input("Convert to (c/f): ").lower()
 
 if unit == "c":
-    print((temp * 9/5) + 32)
+    result = (temp - 32) * 5/9
 elif unit == "f":
-    print((temp - 32) * 5/9)
+    result = (temp * 9/5) + 32
+else:
+    result = None
+
+if result is not None:
+    print(f"{result:.2f}")

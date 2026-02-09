@@ -1,4 +1,9 @@
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
+while True:
+    try:
+        age = int(input("Enter your age: "))
+        break
+    except ValueError:
+        print("Please enter a valid number.")
 
-print(f"Hello {name}, you are {age} years old.")
+name = input("Enter your name: ").strip().title()
+print(f"Welcome {name}, age {age}")

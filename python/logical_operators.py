@@ -1,5 +1,7 @@
-temp = 25
-is_raining = False
+age = int(input("Age: "))
+has_id = input("Have ID? (y/n): ").lower() == "y"
 
-if temp > 20 and not is_raining:
-    print("Go outside!")
+if age >= 18 and has_id:
+    print("Entry allowed")
+else:
+    print("Entry denied")

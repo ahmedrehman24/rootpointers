@@ -1,7 +1,9 @@
 weight = float(input("Enter weight: "))
-unit = input("Kilograms or Pounds (k/p): ")
+unit = input("Convert to (kg/lb): ").lower()
 
-if unit == "k":
-    print(weight * 2.205, "lbs")
-elif unit == "p":
-    print(weight / 2.205, "kg")
+if unit == "kg":
+    print(f"{weight / 2.205:.2f} kg")
+elif unit == "lb":
+    print(f"{weight * 2.205:.2f} lb")
+else:
+    print("Invalid unit")

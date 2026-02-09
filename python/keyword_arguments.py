@@ -1,4 +1,4 @@
-def introduce(name, age):
-    print(f"My name is {name} and I am {age}")
+def profile(name, age, city):
+    print(f"{name}, {age}, from {city}")
 
-introduce(age=25, name="Alex")
+profile(age=25, city="NYC", name="Alex")

@@ -1,5 +1,4 @@
-name = "Python"
+word = input("Enter a word: ")
 
-print(name[0])
-print(name[-1])
-print(name[0:3])
+for i, letter in enumerate(word):
+    print(f"Index {i}: {letter}")

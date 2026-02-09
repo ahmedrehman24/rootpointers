@@ -1,5 +1,5 @@
-def greet(name="Guest"):
-    print(f"Hello {name}")
+def power(base, exponent=2):
+    return base ** exponent
 
-greet()
-greet("Bob")
+print(power(3))
+print(power(3, 3))

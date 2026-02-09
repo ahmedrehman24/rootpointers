@@ -1,10 +1,7 @@
 import math
-x = 10
-y = 3
 
-print(x + y)
-print(x - y)
-print(x * y)
-print(x / y)
-print(x % y)
-print(x ** y)
+num = float(input("Enter a number: "))
+
+print("Square root:", math.sqrt(num))
+print("Ceiling:", math.ceil(num))
+print("Floor:", math.floor(num))

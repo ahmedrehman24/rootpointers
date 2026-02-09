@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4]
+numbers = [1, 2, 3, 4, 5]
 
-for num in numbers:
+squared = [n**2 for n in numbers]
+
+for num in squared:
     print(num)

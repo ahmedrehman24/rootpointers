@@ -1,3 +1,4 @@
 import random
 
-print(random.randint(1, 10))
+print("Dice Roll:", random.randint(1, 6))
+print("Random Float:", random.random())

@@ -1,13 +1,13 @@
-cart = []
+cart = {}
 total = 0
 
 while True:
-    item = input("Enter item (q to quit): ")
+    item = input("Item (q to quit): ")
     if item == "q":
         break
-    price = float(input("Enter price: "))
-    cart.append(item)
+    price = float(input("Price: "))
+    cart[item] = price
     total += price
 
-print("Items:", cart)
+print("Cart:", cart)
 print("Total:", total)

@@ -1,10 +1,9 @@
-def add(*args):
-    print(sum(args))
+def total_sum(*args):
+    return sum(args)
 
-add(1, 2, 3)
+def display(**kwargs):
+    for k, v in kwargs.items():
+        print(k, ":", v)
 
-def print_info(**kwargs):
-    for key, value in kwargs.items():
-        print(key, value)
-
-print_info(name="John", age=30)
+print(total_sum(10, 20, 30))
+display(name="Sam", role="Developer")

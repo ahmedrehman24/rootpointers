@@ -1,13 +1,10 @@
 # Type Casting Example
 
-age = "25"
+user_input = input("Enter a number: ")
 
-age = int(age)
-print(age + 5)
-
-height = 5.9
-height = int(height)
-print(height)
-
-number = 10
-print(float(number))
+try:
+    number = int(user_input)
+    print("Integer:", number)
+    print("Float:", float(number))
+except ValueError:
+    print("Invalid input! Please enter a valid number.")
