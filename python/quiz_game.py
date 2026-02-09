@@ -1,0 +1,7 @@
+score = 0
+
+answer = input("Capital of France? ")
+if answer.lower() == "paris":
+    score += 1
+
+print("Score:", score)
